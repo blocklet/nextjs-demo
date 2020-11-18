@@ -1,18 +1,18 @@
 name: nextjs-demo
-version: 0.1.0
-main: out
-title: Nextjs Demo
-author: ArcBlock
-capabilities:
-  dynamicPathPrefix: false
-scripts:
-  dev: npm run dev
 description: >-
   Blocklet from
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/nextjs-demo
 group: static
+version: 0.1.1
+main: out
+title: Nextjs Demo
 publicUrl: /
+author: ArcBlock
 charging:
   price: 0
-did: z8iZrGV1si82vtbyVWRMk6jyNfubypLJ3zi6k
+capabilities:
+  dynamicPathPrefix: false
+scripts:
+  dev: npm run dev
 specVersion: 1.0.0
+did: z8iZrGV1si82vtbyVWRMk6jyNfubypLJ3zi6k
