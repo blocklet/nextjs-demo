@@ -20,16 +20,5 @@
   },
   "files": [
     "out"
-  ],
-  "blocklet": {
-    "main": "out",
-    "scripts": {
-      "dev": "npm run dev"
-    },
-    "title": "Nextjs Demo",
-    "capabilities": {
-      "dynamicPathPrefix": false
-    },
-    "author": "ArcBlock"
-  }
+  ]
 }
