@@ -18,9 +18,18 @@
     "remark": "^12.0.0",
     "remark-html": "^12.0.0"
   },
+  "files": [
+    "out"
+  ],
   "blocklet": {
+    "main": "out",
     "scripts": {
       "dev": "npm run dev"
-    }
+    },
+    "title": "Nextjs Demo",
+    "capabilities": {
+      "dynamicPathPrefix": false
+    },
+    "author": "ArcBlock"
   }
 }
