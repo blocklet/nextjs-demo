@@ -1,18 +1,28 @@
 name: nextjs-demo
-description: >-
-  Blocklet from
-  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/nextjs-demo
-group: static
 version: 0.1.1
 main: out
+files:
+  - out
+description: >-
+  Blocklet from local nextjs-demo
+group: static
 title: Nextjs Demo
-publicUrl: /
-author: ArcBlock
-charging:
-  price: 0
-capabilities:
-  dynamicPathPrefix: false
+author:
+  name: ArcBlock
 scripts:
   dev: npm run dev
-specVersion: 1.0.0
+specVersion: 1.0.1
 did: z8iZrGV1si82vtbyVWRMk6jyNfubypLJ3zi6k
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
