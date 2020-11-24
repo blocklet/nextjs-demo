@@ -6,7 +6,10 @@
     "dev": "node dev.js",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "clean": "rm -rf .blocklet out",
+    "release": "npm run clean && npm run export && abtnode bundle --create-release",
+    "deploy": "npm run release && abtnode deploy .blocklet/bundle"
   },
   "main": "pages/index.js",
   "dependencies": {
@@ -17,8 +20,5 @@
     "react-dom": "16.13.1",
     "remark": "^12.0.0",
     "remark-html": "^12.0.0"
-  },
-  "files": [
-    "out"
-  ]
+  }
 }
