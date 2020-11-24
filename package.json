@@ -8,8 +8,8 @@
     "start": "next start",
     "export": "next export",
     "clean": "rm -rf .blocklet out",
-    "release": "npm run clean && npm run export && abtnode bundle --create-release",
-    "deploy": "npm run release && abtnode deploy .blocklet/bundle"
+    "bundle": "npm run clean && npm run export && abtnode bundle --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
   "main": "pages/index.js",
   "dependencies": {
