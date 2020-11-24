@@ -8,3 +8,6 @@ test:
 build:
 	@echo "Building the software..."
 	@npm run build && npm run export
+
+bundle:
+	@npm run bundle
