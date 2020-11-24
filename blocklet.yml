@@ -1,10 +1,9 @@
 name: nextjs-demo
-version: 0.1.1
+version: 0.1.2
 main: out
 files:
   - out
-description: >-
-  Blocklet from local nextjs-demo
+description: Blocklet from local nextjs-demo
 group: static
 title: Nextjs Demo
 author:
@@ -26,3 +25,7 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
