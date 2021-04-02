@@ -1,5 +1,5 @@
 name: nextjs-demo
-version: 1.0.0
+version: 1.0.1
 main: out
 files:
   - blocklet.md
@@ -37,3 +37,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
+charging:
+  price: 0
+  tokens: []
+  shares: []
+children: []
