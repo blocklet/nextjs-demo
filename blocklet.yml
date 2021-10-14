@@ -1,5 +1,5 @@
 name: nextjs-demo
-version: 1.0.1
+version: 1.0.2
 main: out
 files:
   - blocklet.md
@@ -16,7 +16,7 @@ author:
   name: ArcBlock
 scripts:
   dev: npm run dev
-specVersion: 1.0.2
+specVersion: 1.1.1
 did: z8iZrGV1si82vtbyVWRMk6jyNfubypLJ3zi6k
 community: ''
 documentation: ''
@@ -42,3 +42,4 @@ charging:
   tokens: []
   shares: []
 children: []
+capabilities: {}
