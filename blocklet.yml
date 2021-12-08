@@ -1,5 +1,5 @@
 name: nextjs-demo
-version: 1.0.2
+version: 1.0.3
 main: out
 files:
   - blocklet.md
@@ -16,7 +16,7 @@ author:
   name: ArcBlock
 scripts:
   dev: npm run dev
-specVersion: 1.1.1
+specVersion: 1.2.0
 did: z8iZrGV1si82vtbyVWRMk6jyNfubypLJ3zi6k
 community: ''
 documentation: ''
@@ -37,9 +37,9 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 children: []
-capabilities: {}
+capabilities:
+  clusterMode: false
