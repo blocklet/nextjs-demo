@@ -2,6 +2,10 @@
 
 This is a demo blocklet bootstrapped with [Learn Next.js](https://nextjs.org/learn)
 
+## Launch on Blocklet Server
+
+[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fnextjs-demo%2Freleases%2Fdownload%2Fv1.0.4%2Fblocklet.json)
+
 ## Run and debug in the cloud with Gitpod
 
 Click the "Open in Gitpod" button, Gitpod will start Blocklet Server and the blocklet.<br>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/nextjs-demo)
