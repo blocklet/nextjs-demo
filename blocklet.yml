@@ -1,5 +1,5 @@
 name: nextjs-demo
-version: 1.0.3
+version: 1.0.4
 main: out
 files:
   - blocklet.md
